@@ -9,7 +9,7 @@ If you used Docker for Mac you are probably better clearing all images and shutt
 1. To provision the VM you only need [VirtualBox][virtualbox] and [Vagrant][vagrant], please install both tools.
 1. Clone the repo
 1. Run `vagrant up` and wait for it to finish
-1. Run `vagrant ssh-config` and add the output of this to your `~/.ssh/config file. You can also run `vagrant ssh-config >> ~/.ssh/config` to do this automatically.
+1. Run `vagrant ssh-config` and add the output of this to your `~/.ssh/config` file. You can also run `vagrant ssh-config >> ~/.ssh/config` to do this automatically.
 
 ## Steps to use the VM with VS Code
 
