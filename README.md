@@ -18,5 +18,6 @@ If you used Docker for Mac you are probably better clearing all images and shutt
 
 virtualbox: https://www.virtualbox.org/wiki/Downloads
 vagrant: https://www.vagrantup.com/downloads
+vscode: https://code.visualstudio.com/download
 vscode-ssh: https://code.visualstudio.com/docs/remote/ssh
 vscode-ssh-extension: https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh
