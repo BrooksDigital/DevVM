@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Copy over specifc etc files
+cp -R /vagrant/etc/* /etc
+
+# Restart/apply config files copied above
+sysctl --system
+
 # General ssh global config for vagrant user
 cp -R /tmp/host/.ssh/* /home/vagrant/.ssh
 cp /vagrant/ssh/config /home/vagrant/.ssh/config
