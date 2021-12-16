@@ -1,0 +1,15 @@
+{
+  "remote.autoForwardPorts": false,
+  "remote.SSH.defaultForwardedPorts": [
+    {
+      "localPort": 80,
+      "remotePort": 80,
+      "name": "HTTP Server"
+    },
+    {
+      "localPort": 443,
+      "remotePort": 443,
+      "name": "HTTPS Server"
+    }
+  ],
+}
