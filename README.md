@@ -16,8 +16,8 @@ If you used Docker for Mac you are probably better clearing all images and shutt
 1. To develop properly you'll need [Visual Studio Code][vscode] and the [Remote SSH extension][vscode-ssh-extension].
 
 
-virtualbox: https://www.virtualbox.org/wiki/Downloads
-vagrant: https://www.vagrantup.com/downloads
-vscode: https://code.visualstudio.com/download
-vscode-ssh: https://code.visualstudio.com/docs/remote/ssh
-vscode-ssh-extension: https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh
+[virtualbox]: https://www.virtualbox.org/wiki/Downloads
+[vagrant]: https://www.vagrantup.com/downloads
+[vscode]: https://code.visualstudio.com/download
+[vscode-ssh]: https://code.visualstudio.com/docs/remote/ssh
+[vscode-ssh-extension]: https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh
