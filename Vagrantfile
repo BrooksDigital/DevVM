@@ -14,7 +14,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.box = "debian/bullseye64"
   config.vm.box_check_update = false
-  config.vm.network "private_network", ip: "192.168.56.23"
+  config.vm.network "private_network", ip: settings["ip"]
 
   config.vm.provider "virtualbox" do |vb|
     # vb.gui = true
