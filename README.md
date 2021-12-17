@@ -20,8 +20,7 @@ If you used Docker for Mac you are probably better clearing all images and shutt
 
 ## Tune your VM resources
 
-The VM is configured with comfortable defaults at [`vagrant.default.yml`](vagrant.default.yml). If want to allocate more RAM or CPUs to your VM, you can do so overwriting any of the default values on a `vagrant.local.yml` which is ignored on the repo. From some few tests, I think less than 4GB of RAM will make the VM perform poorly.
-
+The VM is configured with comfortable defaults at [`vagrant.default.yml`](vagrant.default.yml). If you want to allocate more RAM or CPUs to your VM, you can do so overwriting any of the default values on a `vagrant.local.yml` which is ignored on the repo. From some few tests, I think less than 4GB of RAM will make the VM perform poorly.
 
 [virtualbox]: https://www.virtualbox.org/wiki/Downloads
 [vagrant]: https://www.vagrantup.com/downloads
