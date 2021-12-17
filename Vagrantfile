@@ -2,6 +2,17 @@
 # vi: set ft=ruby :
 ENV["LC_ALL"] = "en_US.UTF-8"
 
+class String
+def red;            "\e[31m#{self}\e[0m" end
+def bold;           "\e[1m#{self}\e[22m" end
+end
+
+`git fetch`
+`git status | grep behind`
+if $?.exitstatus == 0
+  abort("!!\n!! There are updates in the remote, please `git pull` and call `vagrant reload` to keep your VM up to date.\n!!".red.bold)
+end
+
 settings = YAML.load_file 'vagrant.default.yml'
 
 if File.exist?("vagrant.local.yml")

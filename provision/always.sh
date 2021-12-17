@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Keeping the VM up to date
+apt-get update
+apt-get upgrade -y
+
 # General ssh global config for vagrant user
 cp -R /tmp/host/.ssh/* /home/vagrant/.ssh
 cp /vagrant/ssh/config /home/vagrant/.ssh/config
