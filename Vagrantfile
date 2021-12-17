@@ -26,9 +26,9 @@ Vagrant.configure("2") do |config|
   end
 
   # Copy over git global configs
-  config.vm.provision "file", source: "~/.gitconfig", destination: ".gitconfig"
+  config.vm.provision "file", source: "~/.gitconfig", destination: ".gitconfig", run: "always"
   # Copy over your local ssh keys and other potential ssh settings.
-  config.vm.provision "file", source: "~/.ssh", destination: "/tmp/host/.ssh"
+  config.vm.provision "file", source: "~/.ssh", destination: "/tmp/host/.ssh", run: "always"
 
-  config.vm.provision "shell", path: "provision.sh"
+  config.vm.provision "shell", path: "provision.sh", run: "always"
 end
