@@ -14,9 +14,18 @@ If you used Docker for Mac you are probably better clearing all images and shutt
 ## Steps to use the VM with VS Code
 
 1. To develop properly you'll need [Visual Studio Code][vscode] and the [Remote SSH extension][vscode-ssh-extension].
-1. Connect to the VM `brooksdigital`. First time doing this will install VS Code Server on the machin.
+1. Connect to the VM `brooksdigital`. First time doing this will install VS Code Server on the machine.
 1. Make sure your preferred VS Code Extensions are also installed on the VM, this needs to be done so that most extensions runs within the VM.
 1. You can use the VS Code terminal to use the usual terminal commands (`lando start` et all).
+
+## Recommended VS Code Extensions
+
+- [Remote SSH extension - needed][vscode-ssh-extension]
+- [PHP Intelephense - must have](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)
+- [GitLens - ubiquitous](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+- [Commit Message Editor](https://marketplace.visualstudio.com/items?itemName=adam-bender.commit-message-editor)
+
+If you have others you like, let us know which ones and why!
 
 ## Tune your VM resources
 
