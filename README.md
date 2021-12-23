@@ -9,7 +9,7 @@ If you used Docker for Mac you are probably better clearing all images and shutt
 You can watch a video (18min). You can probably skip it as you see best, most of the processing parts are already sped up considerably. (Sorry about the accent!)
 
 [![Watch video](https://img.youtube.com/vi/7xdREuM4oVw/0.jpg)](https://www.youtube.com/watch?v=7xdREuM4oVw)
-
+[Play video!](https://www.youtube.com/watch?v=7xdREuM4oVw)
 
 1. To provision the VM you only need [VirtualBox][virtualbox] and [Vagrant][vagrant], please install both tools.
 1. Clone the repo
