@@ -11,15 +11,15 @@ locale-gen
 sysctl --system
 
 # General tools
-apt-get update
-apt-get install -y git jq htop net-tools
+for i in 1 2 3 4 5; do apt-get update -y && break ; done
+for i in 1 2 3 4 5; do apt-get install -y git jq htop net-tools && break ; done
 
 # Docker setup based of https://docs.docker.com/engine/install/debian/
-apt-get install -y ca-certificates curl gnupg lsb-release
+for i in 1 2 3 4 5; do apt-get install -y ca-certificates curl gnupg lsb-release && break ; done
 curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/debian $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-apt-get update
-apt-get install -y docker-ce docker-ce-cli containerd.io
+for i in 1 2 3 4 5; do apt-get update -y && break ; done
+for i in 1 2 3 4 5; do apt-get install -y docker-ce docker-ce-cli containerd.io && break ; done
 
 # Add vagrant to the docker group so it can be used by the user
 usermod -a -G docker vagrant
