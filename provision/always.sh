@@ -16,5 +16,6 @@ chown -R vagrant:vagrant /home/vagrant/.ssh
 chmod 400 /home/vagrant/.ssh/config
 
 echo "vscode-server settings..."
-cp -R /vagrant/vscode-server /home/vagrant/.vscode-server
+mkdir -p /home/vagrant/.vscode-server
+cp -R /vagrant/vscode-server/* /home/vagrant/.vscode-server
 chown -R vagrant:vagrant /home/vagrant/.vscode-server
